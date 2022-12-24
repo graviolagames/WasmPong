@@ -1,9 +1,10 @@
 #include <emscripten.h>
 #include <stdlib.h>
+#include "consoleLog.h"
 
 void gameLoop(void *args)
 {
-	
+	consolePrint("Game loop");
 }
 
 int main(){
@@ -17,6 +18,7 @@ int main(){
 	// as the main event loop for the calling thread:
 
 	emscripten_set_main_loop_arg(gameLoop,0, fps, infinite_loop);
+	consolePrint("Module initialized");
 	return 0;
 }
 

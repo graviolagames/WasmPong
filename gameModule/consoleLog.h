@@ -1,0 +1,1 @@
+void consolePrint(const char *format, ...);
