@@ -1,6 +1,6 @@
 #include <emscripten.h>
 #include <stdlib.h>
-#include "consoleLog.h"
+#include "engine/debug/consoleLog.h"
 
 void gameLoop(void *args)
 {

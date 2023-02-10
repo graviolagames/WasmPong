@@ -6,7 +6,7 @@ parameters.
 */
 #ifndef GRAPHICS_H
 #define GRAPHICS_H
-#include "rectangle.h"
+#include "math/rectangle.h"
 
 /*
     Initializes graphics subsystem. 
